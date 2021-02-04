@@ -11,7 +11,7 @@ Identify users by their keyboard dynamics (how they type).
 ## Folder Structure
 * certificate (folder): contains .csr, .key, and .crt files for HTTPS to work
 * allowed_uuids.json (file): lists accepted UUIDs (which are access tokens for using this web service)
-* keystroke_patterns (folder): stores the keystroke pattern arrays for each UUID
+* keystroke_patterns (folder): stores the keystroke pattern arrays for each UUID.
   These keystroke pattern arrays are what is used to identify a user by her typing pattern.
 * src (folder):
     - keyboard_dynamics.py: logic for managing typing pattern arrays
