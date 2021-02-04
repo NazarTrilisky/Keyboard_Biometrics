@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,=">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/keyboardlogging.js"></script>
+</head>
+
+<body onload="setup()">
+
+<div>
+    <div class="top_left"> 
+         <img id="lynx_logo" src="./img/lynx.jpeg" alt="Lynx">  
+    </div>
+    <div class="top_right"> 
+        <div class="side_by_side">
+            <a class="top_menu" href="#b1">Item_1</a>
+            <a class="top_menu" href="#b2">Item_2</a>
+        </div>
+    </div>
+</div>
+
+<div style="position: absolute; width: 100%; top: 200px;">
+    <div style="padding: 20px; width: 50%; height: 100px; float: left; background: green;"> 
+        <label>Enter text:</label><br/>
+        <input type="text" id="userInput"></br/>
+        <button type="loginButton" id="loginButton">Login</button><br/>
+        <button type="clearHistory" id="clearButton">Clear History</button><br/>
+    </div>
+    <div style="padding: 20px; margin-left: 50%; height: 100px; background: blue;"> 
+        Right Div: similarity progress bar / number entries here
+    </div>
+</div>
+
+</body>
+</html>

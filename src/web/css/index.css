@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+div.top_left {
+    height: 50px;
+    float: left;
+    padding: 20px;
+}
+
+div.top_right {
+    height: 50px;
+    float: right;
+    padding: 20px;
+}
+
+div.side_by_side {
+    float: left;
+}
+
+a.top_menu {
+    padding: 10px;
+    font-weight: normal;
+}
+
+a.top_menu:hover {
+    font-weight: bold;
+}
+
+#lynx_logo {
+    width: 60px;
+    height: 50px;
+}
+
+#lynx_logo:hover {
+    width: 62px;
+    height: 52px;
+}
+
